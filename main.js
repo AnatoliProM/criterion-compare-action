@@ -482,6 +482,7 @@ function convertToTableObject(results) {
 }
 
 // project use blocking development mode
+// imperative programming mode and declarative programming mode is used in this project
 // IIFE to be able to use async/await
 (async () => {
   try {
