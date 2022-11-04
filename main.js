@@ -481,6 +481,7 @@ function convertToTableObject(results) {
   return benchResults;
 }
 
+// project use blocking development mode
 // IIFE to be able to use async/await
 (async () => {
   try {
