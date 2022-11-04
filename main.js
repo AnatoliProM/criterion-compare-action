@@ -229,7 +229,7 @@ async function main() {
 
   const resultsAsMarkdown = convertToMarkdown(myOutput);
 
-  // An authenticated instance of `@octokit/rest`
+  // An Authenticated instance of `@octokit/rest`
   const octokit = github.getOctokit(inputs.token);
 
   const contextObj = { ...context.issue };
