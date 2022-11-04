@@ -249,7 +249,7 @@ async function main() {
     core.warning(`Failed to comment: ${err}`);
     core.info("Commenting is not possible from forks.");
 
-    // If we can't post to the comment, display results here.
+    // If we can't post to the comment, display results.
     // forkedRepos only have READ ONLY access on GITHUB_TOKEN
     // https://github.community/t5/GitHub-Actions/quot-Resource-not-accessible-by-integration-quot-for-adding-a/td-p/33925
     const resultsAsObject = convertToTableObject(myOutput);
